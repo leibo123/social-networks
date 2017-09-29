@@ -4,43 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LenaUbi
-{
-    class PersonInfo
-    {
+namespace LenaUbi {
+    class PersonInfo {
         private double x = 0;
-        public double X
-        {
-            get
-            {
+        public double X {
+            get {
                 return this.x;
             }
-            set
-            {
+            set {
                 this.x = value;
             }
         }
         private double y = 0;
-        public double Y
-        {
-            get
-            {
+        public double Y {
+            get {
                 return this.y;
             }
-            set
-            {
+            set {
                 this.y = value;
             }
         }
         private double interactions = 0;
-        public double Interactions
-        {
-            get
-            {
+        public double Interactions {
+            get {
                 return this.interactions;
             }
-            set
-            {
+            set {
                 this.interactions = value;
             }
         }
