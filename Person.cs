@@ -4,35 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LenaUbi
-{
-    class Person
-    {
+namespace LenaUbi {
+    class Person {
         private String type = "";
-        public String Type
-        {
-            get
-            {
+        public String Type {
+            get {
                 return this.type;
             }
-            set
-            {
+            set {
                 this.type = value;
             }
         }
         private double interactions = 0;
-        public double Interactions
-        {
-            get
-            {
+        public double Interactions {
+            get {
                 return this.interactions;
             }
-            set
-            {
+            set {
                 this.interactions = value;
             }
         }
-
-
     }
 }
